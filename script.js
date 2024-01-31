@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", function (){
 
         if(isInteger && !isNaN(amount)){
             const gprice = Math.ceil(amount/0.7);
-            price.innerHTML = gprice;
+            const test = gprice.toLocaleString();
+            price.innerHTML = test;
         } else if(checkInput === ""){
             price.innerHTML = "";
         } else{
