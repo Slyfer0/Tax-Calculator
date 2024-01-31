@@ -45,7 +45,7 @@ body{
 .bt{
     height: 30px;
     font-size: 15px;
-    margin-left: 5px;
+    text-align: center;
     font-weight: bolder;
     background: none;
     border: none;
