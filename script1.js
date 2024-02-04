@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function (){
 
     const bt = document.getElementById("bt");
     const price = document.getElementById("price");
+    const rate_per_1k = 290;
 
     bt.addEventListener("input", function(){
         const amount = bt.value;
@@ -9,9 +10,9 @@ document.addEventListener("DOMContentLoaded", function (){
         const checkInput = bt.value.trim();
 
         if(isInteger && !isNaN(amount)){
-            const gprice = Math.ceil(amount/0.7);
+            const gprice = Math.ceil(amount/1000*rate_per_1k);
             const test = gprice.toLocaleString();
-            price.innerHTML = "R$ " + test;
+            price.innerHTML = test + " PHP";
         } else if(checkInput === ""){
             price.innerHTML = "";
         } else{

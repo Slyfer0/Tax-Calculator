@@ -7,7 +7,21 @@ body{
 .header-container{
     background-color: #12372A;
     margin: 0px;
-    padding: 10px;
+    padding: 20px;
+}
+table{
+    margin-top: 20px;
+}
+table a{
+    font-size: 20px;
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s;
+}
+table a:hover{
+    border-color: white;
 }
 .header-container a{
     color: #FBFADA;
@@ -17,7 +31,7 @@ body{
 }
 .calc-container{
     background-color: #12372A;
-    margin-top: 50px;
+    margin-top: 20px;
     max-width: 900px;
     padding: 50px;
     border-radius: 50px;
@@ -34,17 +48,17 @@ body{
 .input-container p{
     border: 2px solid #FBFADA;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px 0;
 }
 .input-container img{
     height: 30px;
     margin: 0px;
-    transform: translate(0, 5px);
+    transform: translate(30px, 3px);
     filter: invert(100%);
 }
 .bt{
     height: 30px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     font-weight: bolder;
     background: none;
