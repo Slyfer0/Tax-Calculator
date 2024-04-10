@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function (){
 
     const bt = document.getElementById("bt");
     const price = document.getElementById("price");
-    const rate_per_1k = 260;
+    const rate_per_1k = 240;
 
     bt.addEventListener("input", function(){
         const amount = bt.value;
