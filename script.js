@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const txtBt = document.getElementById("txtBt");
     const price = document.getElementById("price");
     const txtPesos = document.getElementById("txtPesos");
-    const rate = 2.7;
+    const rate = 2.4;
 
     function updateValues(input, output) {
         const amount = input.value.trim();
